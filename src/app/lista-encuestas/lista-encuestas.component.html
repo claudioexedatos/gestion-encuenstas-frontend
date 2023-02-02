@@ -1,0 +1,18 @@
+<h2>Lista encuestados</h2>
+<table class="table table-striped">
+    <thead class="table-dark">
+        <tr>
+            <th>Email</th>
+            <th>Estilo Musical</th>
+        </tr>
+    </thead>
+
+    <tbody>
+    
+        <tr *ngFor="let encuesta of encuestados">
+          <td>{{encuesta.email}}</td>
+          <td>{{encuesta.estilo}}</td>
+        </tr>
+ 
+    </tbody>
+</table>    
