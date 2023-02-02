@@ -5,6 +5,7 @@ import { ListaEncuestasComponent } from './lista-encuestas/lista-encuestas.compo
 import { RegistrarEncuestaComponent } from './registrar-encuesta/registrar-encuesta.component';
 
 
+
 const routes: Routes = [
   {path : 'registrar-encuesta', component : RegistrarEncuestaComponent},
   {path : 'encuestados', component:ListaEncuestasComponent},

@@ -16,6 +16,9 @@
             "outputPath": "dist/gestion-encuenstas-frontend",
             "index": "src/index.html",
             "main": "src/main.ts",
+            "allowedCommonJsDependencies": [
+              "lodash"
+           ],
             "polyfills": [
               "zone.js"
             ],
@@ -27,7 +30,9 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              
+            ]
           },
           "configurations": {
             "production": {

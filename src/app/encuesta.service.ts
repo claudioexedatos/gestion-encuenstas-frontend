@@ -13,9 +13,10 @@ export class EncuestaService {
 
   constructor(private httpClient : HttpClient) { }
 
-  //Este método me sirve para obtener las encuestas 
-  obtenerListaDeEncuestas(): Observable<Encuesta[]>{
+  //Este método me sirve para obtener las encuestas y retorna un json
+  obtenerListaDeEncuestas(): Observable<Encuesta[]>{ 
     return this.httpClient.get<Encuesta[]>(`${this.baseURL}`);
+    
   }
 
   //este metodo nos sirve para guardar la encuesta
